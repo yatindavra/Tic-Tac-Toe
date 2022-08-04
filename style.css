@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.GameContainer{
+    display: flex;
+    background-color: gray;
+    justify-content: center; 
+    margin-top: 50px;
+}
+
+.GameInfo{
+    padding: 0 34px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vW);
+    grid-template-rows: repeat(3,10vW);
+
+}
+
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgbox img{
+    width:55px
+}
